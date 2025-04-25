@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #ff8000;
     color: white;
     padding: 20px;
 }
@@ -16,11 +16,41 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #00aaff;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #194c8b;
+}
+
+/* Position the buttons */
+.rickroll-btn {
+    margin: 10px auto; /* Add space around the button */
+    display: block; /* Center the button horizontally */
+}
+
+.next-page-btn {
+    margin: 10px auto; /* Add space around the button */
+    display: block; /* Center the button horizontally */
+}
+main {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically (default) */
+    align-items: center; /* Center buttons horizontally */
+    gap: 5px; /* Add space between buttons */
+}
+
+/* Full-page background image */
+body.next-page {
+    background-image: url('476305408_2359952487704199_5003696703913810664_n.jpg'); /* Replace 'your-image.jpg' with the name of your image file */
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: fill; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    color: white; /* Optional: Change text color for better contrast */
+}
